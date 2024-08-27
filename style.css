@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    height: 80vh;
+    background-image: url("background.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    background-attachment: fixed;
+    height: 100vh;
+    position: relative;
+}
+.form{
+    background-color: rgba(2, 2, 63, 0.541);
+    width: 70vw;
+    height: auto;
+    margin: auto;
+    position: relative;
+    top: 20px;
+    
+}
+h1{
+    text-align: center;
+    font-weight: 700;
+    font-size: 45px;
+}
+p{
+text-align: center;
+font-size: 28px;
+font-weight: 500;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+     justify-content: center;
+     margin: auto;
+     width: 50vw;
+     margin-top: 50px;
+     
+ }
+input{
+     margin: 2px;
+     padding: 2px;
+     width: 40vw;
+     height: 20px;
+ 
+ }
+ .gender{
+    display: flex;
+    gap: 5px;
+    width: 100px;
+ }
+
+ select{
+    color: black;
+    width: 40vw;
+ }
+ option{
+    color: black;
+ }
+
+ .device{
+    width: 300px;
+ }
+ .device input{
+        margin: 2px;
+        padding: 2px;
+        width: 2vw;
+        height: 20px;
+ }
+
+ .software input{
+    margin: 2px;
+        padding: 2px;
+        width: 2vw;
+        height: 20px;
+ }
+ textarea{
+    background-color: rgba(5, 5, 59, 0.822);
+    border: 2px solid rgb(44, 44, 61);
+    font-weight: 500;
+    font-size: 16px;
+
+ }
+ button{
+    margin: auto;
+    height: 40px;
+    width: 200px;
+    background-color: rgba(71, 70, 70, 0.842);
+    border-radius: 9px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    border: 2px solid rgb(40, 40, 41);
+    cursor: pointer;
+    
+ }
+
+ 

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technology Usage Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+       <div class="form">
+           <h1 id="title">Technology Usage Survey Form</h1>
+        <p id="description">Thankyou for your time</p>
+        <form action="post" id="survey-form">
+            
+            <div>
+                <label for="name" id="name-label">Name</label>
+            </div>
+            <div>
+                <input type="text" name="personal-info" id="name" value="name" placeholder="Your Name" required>
+            </div>
+            <div>
+                <label for="email" id="email-label">Email Address</label>
+            </div>
+            <div>
+                <input type="email" name="personal-info" id="email" value="email" placeholder="Your Email" required>
+            </div>
+            <div>
+                <label for="number" id="number-label">Number</label>
+            </div>
+            <div>
+                <input type="number" name="personal-info" id="number" value="number" min="1" max="11" placeholder="Your Number" required>
+            </div>
+            
+                <div>
+                    <label for="age">Age (Optional)</label>
+                </div>
+                <div>
+                    <input type="text" name="personal-info" id="age" value="age">
+                </div>
+                <legend>Your Gender</legend>
+                <div class="gender">
+                    <label for="female"></label><input type="radio" name="gender" id="female" value="female">
+                    Female</label>
+                    <label for="male"></label><input type="radio" name="gender" id="male" value="male">
+                    Male</label>
+                    <label for="other"></label><input type="radio" name="gender" id="other" value="other">
+                    Other</label>
+                </div>
+                <legend>Which option best describes your current role?</legend>
+                <div>
+                    <select name="role" id="dropdown">
+                        <option value="current" disabled selected >Select Current Role</option>
+                        <option value="student">Student</option>
+                        <option value="full-time-job">Full Time Job</option>
+                        <option value="part-time-job">Part Time Job</option>
+                        <option value="none">None</option>
+                    </select>
+                </div>
+
+                <legend>What type of devices do you use regularly?</legend>
+                <div class="device">
+                    <div>
+                        <label for="smartphone"></label><input type="radio" name="device" id="smartphone" value="smartphone">
+                        Smart Phone</label>
+                    </div>
+                    <div>
+                        <label for="tablet"></label><input type="radio" name="device" id="tablet" value="tablet">
+                        Tablet</label>
+                    </div>
+                    <div>
+                        <label for="laptop"></label><input type="radio" name="device" id="laptop" value="laptop">
+                        Laptop</label>
+                    </div>
+                    <div>
+                        <label for="computer"></label><input type="radio" name="device" id="computer" value="computer">
+                        Desktop Computer</label>
+                    </div>
+                    <div>
+                        <label for="watch"></label><input type="radio" name="device" id="watch" value="watch">
+                        Smart Watch</label>
+                    </div>
+                </div>
+            <legend>How many hours per day do you spend on your devices?</legend>
+            <div class="device">
+                <div>
+                    <label for="less1"></label><input type="radio" name="device" id="less1" value="less1">
+                    Less than 1 hour</label>
+                </div>
+                <div>
+                    <label for="1-3hrs"></label><input type="radio" name="device" id="1-3hrs" value="1-3hrs">
+                    1-3 hours</label>
+                </div>
+                <div>
+                    <label for="4-6hrs"></label><input type="radio" name="device" id="4-6hrs" value="4-6hrs">
+                    4-6 hours</label>
+                </div>
+                <div>
+                    <label for="7-10hrs"></label><input type="radio" name="device" id="7-10hrs" value="7-10hrs">
+                    7-10 hours</label>
+                </div>
+                <div>
+                    <label for="10more"></label><input type="radio" name="device" id="10more" value="10more">
+                    More than 10 hours</label>
+                </div>
+            </div>
+            <legend>Which social media platforms do you use the most?</legend>
+            <div class="device">
+                <div>
+                    <label for="Whatsapp"></label><input type="radio" name="app" id="Whatsapp" value="Whatsapp">
+                    Whatsapp</label>
+                </div>
+                <div>
+                    <label for="Instagram"></label><input type="radio" name="app" id="Instagram" value="Instagram">
+                    Instagram</label>
+                </div>
+                <div>
+                    <label for="Snapchat"></label><input type="radio" name="app" id="Snapchat" value="Snapchat">
+                    Snapchat</label>
+                </div>
+                <div>
+                    <label for="Twitter"></label><input type="radio" name="app" id="Twitter" value="Twitter">
+                    Twitter</label>
+                </div>
+                <div>
+                    <label for="LinkedIn"></label><input type="radio" name="app" id="LinkedIn" value="LinkedIn">
+                    LinkedIn</label>
+                </div>
+            </div>
+            <legend>How comfortable are you with using new technology?</legend>
+            <div class="device">
+                <div>
+
+                    <label for="very"></label><input type="radio" name="newtech" id="very" value="very">
+                    Very Comfortable</label>
+                </div>
+                <div>
+
+                    <label for="somewhat"></label><input type="radio" name="newtech" id="somewhat" value="somewhat">
+                    Somewhat Comfortable</label>
+                </div>
+                <div>
+
+                    <label for="neutral"></label><input type="radio" name="newtech" id="neutral" value="neutral">
+                    Neutral</label>
+                </div>
+                <div>
+
+                    <label for="uncomf"></label><input type="radio" name="newtech" id="uncomf" value="uncomf">
+                    Somewhat Uncomfortable</label>
+                </div>
+                <div>
+
+                    <label for="veryuncomf"></label><input type="radio" name="newtech" id="veryuncomf" value="veryuncomf">Very Uncomfortable</label>
+                </div>
+                </div>
+                <legend>What apps or software do you use most frequently? (Check all that apply)</legend>
+                <div class="software">
+                    <div>
+                        <input type="checkbox" name="email" id="email" value="attribute and value">
+                        <label for="email">Email</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="word" id="word" value="attribute and value">
+                        <label for="word"> Office Suite (Word, Excel, etc.)</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="msg" id="msg" value="attribute and value">
+                        <label for="msg">Messaging Apps</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="netflix" id="netflix" value="attribute and value">
+                        <label for="netflix"> Streaming Services (Netflix, Spotify, etc.)</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="Gaming" id="Gaming" value="attribute and value">
+                        <label for="Gaming">Gaming</label>
+                    </div>  
+                </div>
+                <legend>Any comments or suggestions?</legend>
+                <textarea name="suggestions" id="suggestions" rows="4" cols="30" placeholder="Enter Your comment here"></textarea>
+                <button id="submit">Submit</button>
+            </form>
+            
+        </div>
+        </main>
+</body>
+</html> 
